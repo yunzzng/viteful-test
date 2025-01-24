@@ -37,7 +37,7 @@ Viteful은 **Vite** 기반의 React Boilerplate에 **Server Side Rendering (SSR)
 ### 1. 레포지터리 클론
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:yunzzng/viteful-test.git
 cd viteful
 ```
 
