@@ -42,7 +42,7 @@ pnpm run dev
 
 ### 4. 빌드 및 실행
 
-#### 클라인트 & 서버 빌드
+#### 클라이언트 & 서버 빌드
 
 ```bash
 pnpm run build
