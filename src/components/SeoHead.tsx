@@ -6,9 +6,14 @@ interface HeadProps {
 const SeoHead: FC<HeadProps> = ({ path }) => {
   return (
     <>
-      <title>{`여기는 ${path ?? "home"}`}</title>
-      <meta name="title" content={`여기는 ${path ?? "home"} meta title`} />
+      <title className={"seo-tags"}>{`여기는 ${path ?? "home"}`}</title>
       <meta
+        className={"seo-tags"}
+        name="title"
+        content={`여기는 ${path ?? "home"} meta title`}
+      />
+      <meta
+        className={"seo-tags"}
         name="description"
         content={`여기는 ${path ?? "home"} meta description`}
       />
